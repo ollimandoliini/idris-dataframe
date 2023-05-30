@@ -1,0 +1,12 @@
+package dataframe
+
+authors    = "ollimandoliini"
+version    = 0.1.0
+sourcedir  = "src"
+depends    = base         >= 0.6.0
+
+modules = Main
+        , Data.DataFrame
+        , Data.DataFrame.CSV
+        , Data.DataFrame.ReadDataFrame
+        , Data.DataFrame.Row
